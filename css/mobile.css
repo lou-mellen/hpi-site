@@ -1,0 +1,114 @@
+@media only screen and (max-width: 1199px) {
+  body{
+  	min-width: 200px !important;
+  }
+  .header{
+  	display: none;
+  }
+
+  .mobile-header{
+  	width: 100%;
+  	display: inline-block;
+  }
+
+  .mobile-logo-holder>img{
+  	width: 100%;
+  	background-color: white;
+  	position: relative;
+  	bottom: 0px;
+  	display: block;
+  }
+
+  #mobile-nav{
+  	padding-top: 0px;
+  	margin-top: 0px;
+  	display: inline-block;
+  	width: 100%;
+  }
+  #mobile-nav>ul{
+  	margin: 0 0 0 0;
+  }
+
+  #mobile-nav>ul>li{
+  	width: 100%;
+  	display: block;
+	background-color: rgb(127,0,0);
+	text-align: center;
+
+	border-bottom-color: white;
+	border-bottom-width: 0.5px;
+	border-bottom-style: solid;
+	height: 65px;
+
+  }
+  #doc-holder{
+  	display: none;
+  }
+
+  #mobile-nav>ul{
+  	padding: 0px 0px 0px 0px;
+  }
+
+  #mobile-nav>ul>li>a{
+  	color: white;
+	text-decoration: none;
+	font-family: "Cinzel";
+	font-size: 24px;
+	height: 100%;
+	line-height: 65px;
+  }
+
+  #desktop-contact{
+  	display: none;
+  }
+
+  .col-three{
+  	width: 100%;
+  }
+
+  .col-two{
+  	width: 100%;
+  }
+
+  #banner1{
+  	padding-top: 40px;
+  	padding-bottom: 40px;
+  }
+  .image-banner{
+  	height: auto !important;
+  	padding-top: 10px;
+  	padding-bottom: 10px;
+  }
+
+  #family-pic{
+  	padding-left: 15% !important;
+  	width: 70% !important;
+  }
+  #copyright-desc-txt{
+  	top:120px !important;
+  }
+
+  #contact-banner{
+  	display: none;
+  }
+
+  .inspec-img{
+  	width: 100%;
+  }
+
+  .inspec-img-holder{
+  	padding-left:0px !important;
+  }
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+  .mobile{
+  	display: none;
+  }
+
+  #mobile-doc-button{
+  	display: none;
+  }
+}

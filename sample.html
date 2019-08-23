@@ -5,6 +5,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/Cinzel.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
 </head>
 <body>
 	<div id="frame">
@@ -31,14 +32,29 @@
 			</div>
 		</div>
 
+		<div class="mobile mobile-header">
+			<div class="mobile-logo-holder"><img src="images/mainlogo.png"></div>
+
+			<div id="mobile-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li><li><a href="whats-inspected.html">What's Inspected</a></li><li><a href="sample.html">Sample Report</a></li><li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+
 		<div class="page-section">
 			<div style="width: 50%; padding-left: 87px; padding-top: 20px;">
 				<h2 class="brown-text" style="margin-top: 0px; margin-bottom: 0px;">Reporting Software</h2>
 			<p style="margin-top: 5px;" class="brown-text">Our reporting software is simple to read and complete with HD pictures documenting all aspects of the property.</p>
 			</div>
-			<div style="width: 100%; text-align: center; padding-top: 30px; padding-bottom: 50px;">
+			<div style="width: 100%; text-align: center; padding-top: 30px; padding-bottom: 50px;" id="doc-holder">
 				<iframe src="https://docs.google.com/viewer?srcid=1xNFKfncYcQa_LKfU0u_me6A2d3wgj1mh&amp;pid=explorer&amp;efh=false&amp;a=v&amp;chrome=false&amp;embedded=true" width="850px" height="1100px"></iframe>
 			</div>
+
+			<div style="width: 100%; text-align: center; padding-top: 10px; padding-bottom: 40px;" id="mobile-doc-button">
+						<a href="https://docs.google.com/viewer?srcid=1xNFKfncYcQa_LKfU0u_me6A2d3wgj1mh&amp;pid=explorer&amp;efh=false&amp;a=v&amp;chrome=false&amp;embedded=false" class="button">View Sample Report</a>
+			</div>
+
 		</div>
 
 		
@@ -64,7 +80,7 @@
 
 				<p style="width: 90%; padding-left: 5%;" class="brown-text">Home Inspections in Valparaiso, Home Inspections in Portage, Home Inspections in Chesterton, Home Inspections in NWI, Home Inspections in SouthWest Michigan</p>
 
-				<p style="position: relative; top: 50px; width: 50%;" class="brown-text">Copyright 2019. Lou Mellen. All rights reserved. Free estimate requires sufficient information about the property in question.</p>
+				<p style="position: relative; top: 50px; width: 50%;" class="brown-text" id = "copyright-desc-txt">Copyright 2019. Lou Mellen. All rights reserved. Free estimate requires sufficient information about the property in question.</p>
 			</div>
 		</div>
 

@@ -5,6 +5,7 @@
 
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/Cinzel.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
 </head>
 <body>
 	<div id="frame">
@@ -31,9 +32,19 @@
 			</div>
 		</div>
 
-		<div class="image-banner" style="background-image: url('images/banner-3.jpeg'); background-size: cover; height: 106px;"></div>
+		<div class="mobile mobile-header">
+			<div class="mobile-logo-holder"><img src="images/mainlogo.png"></div>
 
-		<div class="page-section" style="padding-bottom: 40px;">
+			<div id="mobile-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li><li><a href="whats-inspected.html">What's Inspected</a></li><li><a href="sample.html">Sample Report</a></li><li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="image-banner" style="background-image: url('images/banner-3.jpeg'); background-size: cover; height: 106px;" id = "contact-banner"></div>
+
+		<div class="page-section" style="padding-bottom: 40px;" id="desktop-contact">
 			<div style="width: 55%; padding-left: 5%; display: inline-block;vertical-align: top;">
 				<h1 class="brown-text" style="margin: 0px 0px 0px 0px; padding-top: 40px; padding-bottom: 15px;">Contact Us!</h1>
 				<p><b>Lou Mellen</b></p>
@@ -44,6 +55,18 @@
 				<div style="padding-top: 40px;">
 						<img src="images/lou.png" style="border-radius: 18px;">
 				</div>
+			</div>
+		</div>
+
+		<div class="mobile page-section" style="padding-bottom: 40px;">
+			<div style="width: 94%; padding-left: 5%; display: inline-block;vertical-align: top; text-align: center;">
+				<h1 class="brown-text" style="margin: 0px 0px 0px 0px; padding-top: 40px; padding-bottom: 15px;">Contact Us!</h1>
+				<img src="images/lou.png" style="border-radius: 18px; margin-top: 25px;">
+				<p><b>Lou Mellen</b></p>
+				<p>Home & Property Inspections, LLC</p>
+				<p>Phone: <a href="tel:12196702773">219-670-2773</a></p>
+				<p style="margin-bottom: 0px;">Email: <a href="mailto:">[Lou Mellen Email]</a></p>
+
 			</div>
 		</div>
 
@@ -60,7 +83,7 @@
 
 				<p style="width: 90%; padding-left: 5%;" class="brown-text">Home Inspections in Valparaiso, Home Inspections in Portage, Home Inspections in Chesterton, Home Inspections in NWI, Home Inspections in SouthWest Michigan</p>
 
-				<p style="position: relative; top: 50px; width: 50%;" class="brown-text">Copyright 2019. Lou Mellen. All rights reserved. Free estimate requires sufficient information about the property in question.</p>
+				<p style="position: relative; top: 50px; width: 50%;" class="brown-text" id = "copyright-desc-txt">Copyright 2019. Lou Mellen. All rights reserved. Free estimate requires sufficient information about the property in question.</p>
 			</div>
 		</div>
 

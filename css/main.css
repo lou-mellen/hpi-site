@@ -100,11 +100,12 @@ h5{
 	display: inline-block;
 	background-color: rgb(127,0,0);
 	padding: 10px 0px 10px 0px;
-	width: 24.91%;
+	width: 25%;
 	text-align: center;
 
 	border-left-color: rgb(0, 50, 85);
 	border-left-width: 0.5px;
+	box-sizing: border-box;
 	border-left-style: solid;
 }
 #nav>ul>li:hover{
